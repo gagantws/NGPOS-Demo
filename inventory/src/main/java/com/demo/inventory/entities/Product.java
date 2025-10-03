@@ -1,4 +1,4 @@
-package com.demo.inventory.Entities;
+package com.demo.inventory.entities;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -9,17 +9,18 @@ import lombok.AllArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Document(collection = "products")
+@Document(collection = "ProductInfo")
 public class Product {
+
     @Id
-    private String id;
+    private String product_id;
+    private String sku;
     private String name;
+    private String description;
+    private int price;
+    private String currency;
     private int quantity;
 
-    // constructors, getters/setters
-//    public Product() {}
-//    public Product(String id, String name, int quantity) {
-//        this.id = id; this.name = name; this.quantity = quantity;
-//    }
+
 
 }
