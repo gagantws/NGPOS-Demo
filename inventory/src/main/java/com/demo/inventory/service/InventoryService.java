@@ -1,12 +1,14 @@
 package com.demo.inventory.service;
 
 import com.demo.inventory.entities.Product;
+import com.demo.inventory.entities.ProductOverview;
 import com.demo.inventory.repository.ProductRepository;
 import com.demo.inventory.dto.DeductRequestDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
@@ -27,7 +29,7 @@ public class InventoryService {
     }
 
     public List<Product> getAllProducts() {
-        System.out.println(repo.findAll());
+//        System.out.println(repo.findAll());
         return repo.findAll();
     }
 
@@ -54,4 +56,15 @@ public class InventoryService {
         }
     }
 
+    public List<ProductOverview> getProductsOverview() {
+
+        List<ProductOverview> productOverviewList = new ArrayList<>();
+        List<Product> productList = repo.findAll();
+
+        for(Product p : productList){
+            ProductOverview productOverview = new ProductOverview(p.getProduct_id(), p.getSku(), p.getName(), p.getPrice());
+            productOverviewList.add(productOverview);
+        }
+        return productOverviewList;
+    }
 }
