@@ -143,3 +143,427 @@
 2025-10-06T10:19:33.932+05:30  INFO 50688 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
 2025-10-06T10:19:33.935+05:30  INFO 50688 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
 2025-10-06T10:19:33.935+05:30  INFO 50688 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-06T10:39:54.118+05:30  INFO 51093 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.12 with PID 51093 (/Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry/target/classes started by gagandeepsingh in /Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry)
+2025-10-06T10:39:54.120+05:30  INFO 51093 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T10:39:54.587+05:30  INFO 51093 --- [service-registry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a80941e2-5337-317c-892d-e14252fc4030
+2025-10-06T10:39:54.703+05:30  INFO 51093 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-06T10:39:54.708+05:30  INFO 51093 --- [service-registry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T10:39:54.708+05:30  INFO 51093 --- [service-registry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-06T10:39:54.737+05:30  INFO 51093 --- [service-registry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T10:39:54.738+05:30  INFO 51093 --- [service-registry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2025-10-06T10:39:55.130+05:30  INFO 51093 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-10-06T10:39:55.131+05:30  INFO 51093 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-10-06T10:39:55.214+05:30  INFO 51093 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-10-06T10:39:55.214+05:30  INFO 51093 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-10-06T10:39:55.274+05:30  INFO 51093 --- [service-registry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-06T10:39:55.562+05:30  WARN 51093 --- [service-registry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-06T10:39:55.569+05:30  INFO 51093 --- [service-registry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-06T10:39:55.576+05:30  INFO 51093 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-06T10:39:55.577+05:30  INFO 51093 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-10-06T10:39:55.577+05:30  INFO 51093 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759727395577 with initial instances count: 0
+2025-10-06T10:39:55.591+05:30  INFO 51093 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-10-06T10:39:55.592+05:30  WARN 51093 --- [service-registry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T10:39:55.595+05:30  INFO 51093 --- [service-registry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-10-06T10:39:55.595+05:30  INFO 51093 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-10-06T10:39:55.599+05:30  INFO 51093 --- [service-registry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06T10:39:55.618+05:30  INFO 51093 --- [service-registry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-10-06T10:39:55.624+05:30  INFO 51093 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-10-06T10:39:55.624+05:30  INFO 51093 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-10-06T10:39:55.624+05:30  INFO 51093 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-10-06T10:39:55.624+05:30  INFO 51093 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-10-06T10:39:55.624+05:30  INFO 51093 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-10-06T10:39:55.625+05:30  INFO 51093 --- [service-registry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-10-06T10:39:55.628+05:30  INFO 51093 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-06T10:39:55.628+05:30  INFO 51093 --- [service-registry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2025-10-06T10:39:55.648+05:30  INFO 51093 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 1.775 seconds (process running for 2.083)
+2025-10-06T10:39:55.881+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T10:39:55.882+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T10:39:55.882+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-06T10:39:55.912+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T10:39:55.912+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T10:39:55.985+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T10:39:56.012+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T10:39:56.013+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T10:39:56.025+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status UP (replication=false)
+2025-10-06T10:39:57.025+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T10:39:57.025+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T10:39:57.042+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status UP (replication=false)
+2025-10-06T10:39:58.645+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T10:40:00.009+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T10:40:00.010+05:30  WARN 51093 --- [service-registry] [http-nio-8090-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T10:40:00.031+05:30  INFO 51093 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T10:40:55.630+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T10:41:55.631+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T10:42:55.636+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T10:43:55.642+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T10:44:55.647+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T10:45:55.652+05:30  INFO 51093 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T10:46:15.619+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2025-10-06T10:46:15.622+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T10:46:15.630+05:30  INFO 51093 --- [service-registry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T10:46:15.650+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-10-06T10:46:15.650+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T10:46:15.651+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T10:46:15.651+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-10-06T10:46:15.651+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T10:46:15.652+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T10:46:15.655+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-06T10:46:15.655+05:30  INFO 51093 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-06T20:03:17.445+05:30  INFO 86905 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.12 with PID 86905 (/Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry/target/classes started by gagandeepsingh in /Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry)
+2025-10-06T20:03:17.447+05:30  INFO 86905 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T20:03:17.824+05:30  INFO 86905 --- [service-registry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a80941e2-5337-317c-892d-e14252fc4030
+2025-10-06T20:03:17.923+05:30  INFO 86905 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-06T20:03:17.928+05:30  INFO 86905 --- [service-registry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T20:03:17.928+05:30  INFO 86905 --- [service-registry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-06T20:03:17.953+05:30  INFO 86905 --- [service-registry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T20:03:17.953+05:30  INFO 86905 --- [service-registry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 491 ms
+2025-10-06T20:03:18.308+05:30  INFO 86905 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-10-06T20:03:18.309+05:30  INFO 86905 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-10-06T20:03:18.385+05:30  INFO 86905 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-10-06T20:03:18.386+05:30  INFO 86905 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-10-06T20:03:18.454+05:30  INFO 86905 --- [service-registry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-06T20:03:18.714+05:30  WARN 86905 --- [service-registry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-06T20:03:18.721+05:30  INFO 86905 --- [service-registry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-06T20:03:18.728+05:30  INFO 86905 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-06T20:03:18.728+05:30  INFO 86905 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-10-06T20:03:18.728+05:30  INFO 86905 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759761198728 with initial instances count: 0
+2025-10-06T20:03:18.743+05:30  INFO 86905 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-10-06T20:03:18.744+05:30  WARN 86905 --- [service-registry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:03:18.747+05:30  INFO 86905 --- [service-registry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-10-06T20:03:18.747+05:30  INFO 86905 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-10-06T20:03:18.751+05:30  INFO 86905 --- [service-registry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06T20:03:18.770+05:30  INFO 86905 --- [service-registry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-10-06T20:03:18.776+05:30  INFO 86905 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-10-06T20:03:18.776+05:30  INFO 86905 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-10-06T20:03:18.776+05:30  INFO 86905 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-10-06T20:03:18.776+05:30  INFO 86905 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-10-06T20:03:18.776+05:30  INFO 86905 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-10-06T20:03:18.777+05:30  INFO 86905 --- [service-registry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-10-06T20:03:18.781+05:30  INFO 86905 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-06T20:03:18.782+05:30  INFO 86905 --- [service-registry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2025-10-06T20:03:18.794+05:30  INFO 86905 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 1.581 seconds (process running for 1.824)
+2025-10-06T20:03:26.663+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T20:03:26.663+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T20:03:26.664+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-06T20:03:26.771+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T20:03:30.655+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T20:03:33.235+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status UP (replication=false)
+2025-10-06T20:03:36.369+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status UP (replication=false)
+2025-10-06T20:04:18.782+05:30  INFO 86905 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:04:59.527+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2025-10-06T20:04:59.529+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T20:04:59.533+05:30  INFO 86905 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status DOWN (replication=false)
+2025-10-06T20:04:59.535+05:30  INFO 86905 --- [service-registry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T20:04:59.538+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-10-06T20:04:59.538+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T20:04:59.538+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T20:04:59.539+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-10-06T20:04:59.539+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T20:04:59.539+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T20:04:59.543+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-06T20:04:59.544+05:30  INFO 86905 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-06T20:18:59.240+05:30  INFO 87168 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.12 with PID 87168 (/Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry/target/classes started by gagandeepsingh in /Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry)
+2025-10-06T20:18:59.241+05:30  INFO 87168 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T20:18:59.604+05:30  INFO 87168 --- [service-registry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a80941e2-5337-317c-892d-e14252fc4030
+2025-10-06T20:18:59.707+05:30  INFO 87168 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-06T20:18:59.712+05:30  INFO 87168 --- [service-registry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T20:18:59.713+05:30  INFO 87168 --- [service-registry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-06T20:18:59.737+05:30  INFO 87168 --- [service-registry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T20:18:59.737+05:30  INFO 87168 --- [service-registry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 481 ms
+2025-10-06T20:19:00.073+05:30  INFO 87168 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-10-06T20:19:00.074+05:30  INFO 87168 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-10-06T20:19:00.149+05:30  INFO 87168 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-10-06T20:19:00.149+05:30  INFO 87168 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-10-06T20:19:00.206+05:30  INFO 87168 --- [service-registry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-06T20:19:00.450+05:30  WARN 87168 --- [service-registry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-06T20:19:00.456+05:30  INFO 87168 --- [service-registry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-06T20:19:00.464+05:30  INFO 87168 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-06T20:19:00.464+05:30  INFO 87168 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-10-06T20:19:00.464+05:30  INFO 87168 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759762140464 with initial instances count: 0
+2025-10-06T20:19:00.478+05:30  INFO 87168 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-10-06T20:19:00.479+05:30  WARN 87168 --- [service-registry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:19:00.482+05:30  INFO 87168 --- [service-registry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-10-06T20:19:00.483+05:30  INFO 87168 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-10-06T20:19:00.486+05:30  INFO 87168 --- [service-registry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06T20:19:00.505+05:30  INFO 87168 --- [service-registry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-10-06T20:19:00.510+05:30  INFO 87168 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-10-06T20:19:00.514+05:30  INFO 87168 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-10-06T20:19:00.514+05:30  INFO 87168 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-10-06T20:19:00.514+05:30  INFO 87168 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-10-06T20:19:00.514+05:30  INFO 87168 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-10-06T20:19:00.515+05:30  INFO 87168 --- [service-registry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-10-06T20:19:00.519+05:30  INFO 87168 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-06T20:19:00.519+05:30  INFO 87168 --- [service-registry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2025-10-06T20:19:00.536+05:30  INFO 87168 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 1.56 seconds (process running for 1.814)
+2025-10-06T20:19:00.653+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T20:19:00.654+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T20:19:00.655+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-06T20:19:00.689+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T20:19:00.690+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T20:19:00.799+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T20:19:02.141+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T20:19:02.142+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T20:19:02.162+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status UP (replication=false)
+2025-10-06T20:19:02.587+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T20:19:02.587+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T20:19:02.606+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T20:19:03.459+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T20:19:03.459+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-6] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T20:19:03.480+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status UP (replication=false)
+2025-10-06T20:19:04.752+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - 192.168.0.103:api-gateway:8080
+2025-10-06T20:19:04.752+05:30  WARN 87168 --- [service-registry] [http-nio-8090-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Renew): API-GATEWAY - 192.168.0.103:api-gateway:8080
+2025-10-06T20:19:04.782+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:19:04.782+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:20:00.520+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:21:00.525+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:22:00.529+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:23:00.535+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:24:00.539+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:25:00.541+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:26:00.546+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:27:00.549+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:28:00.552+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:28:30.690+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:28:33.707+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:28:35.830+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:29:00.490+05:30  WARN 87168 --- [service-registry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:29:00.555+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:30:00.560+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:30:28.305+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:30:31.323+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:30:33.417+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:31:00.564+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:32:00.568+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:32:44.720+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:32:47.735+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:32:49.989+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:33:00.570+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T20:33:48.760+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:33:51.777+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:33:53.804+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:34:00.495+05:30  INFO 87168 --- [service-registry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2025-10-06T20:34:00.575+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:35:00.579+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:36:00.585+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:37:00.589+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:38:00.593+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:39:00.500+05:30  WARN 87168 --- [service-registry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:39:00.599+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:40:00.600+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:41:00.601+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:42:00.605+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 18ms
+2025-10-06T20:43:00.610+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 29ms
+2025-10-06T20:44:00.613+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:45:00.617+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:46:00.620+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:47:00.622+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T20:47:19.331+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:47:22.345+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:47:24.599+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:48:00.626+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:49:00.464+05:30  WARN 87168 --- [service-registry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:49:00.497+05:30  INFO 87168 --- [service-registry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2025-10-06T20:49:00.631+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:50:00.632+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T20:51:00.637+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T20:52:00.641+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T20:53:00.641+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T20:54:00.643+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T20:55:00.645+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:56:00.649+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2025-10-06T20:56:13.894+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:56:16.907+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:56:19.017+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:57:00.651+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T20:57:09.975+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T20:57:12.992+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T20:57:15.034+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T20:58:00.653+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T20:59:00.470+05:30  WARN 87168 --- [service-registry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T20:59:00.658+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:00:00.659+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T21:01:00.664+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:02:00.665+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T21:03:00.667+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T21:04:00.501+05:30  INFO 87168 --- [service-registry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2025-10-06T21:04:00.671+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:05:00.676+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T21:06:00.679+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T21:06:01.209+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status DOWN (replication=false)
+2025-10-06T21:06:04.238+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 (replication=false)
+2025-10-06T21:06:23.924+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status DOWN (replication=false)
+2025-10-06T21:06:26.941+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 (replication=false)
+2025-10-06T21:07:00.682+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T21:07:49.193+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T21:07:52.021+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T21:08:00.685+05:30  INFO 87168 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:08:09.376+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2025-10-06T21:08:09.377+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T21:08:09.379+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status DOWN (replication=false)
+2025-10-06T21:08:09.380+05:30  INFO 87168 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:08:09.381+05:30  INFO 87168 --- [service-registry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T21:08:09.397+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-10-06T21:08:09.397+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:08:09.397+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:08:09.397+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-10-06T21:08:09.398+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:08:09.398+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:08:09.401+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-06T21:08:09.402+05:30  INFO 87168 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-06T21:22:43.402+05:30  INFO 88021 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.12 with PID 88021 (/Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry/target/classes started by gagandeepsingh in /Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry)
+2025-10-06T21:22:43.403+05:30  INFO 88021 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T21:22:43.777+05:30  INFO 88021 --- [service-registry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a80941e2-5337-317c-892d-e14252fc4030
+2025-10-06T21:22:43.884+05:30  INFO 88021 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-06T21:22:43.888+05:30  INFO 88021 --- [service-registry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T21:22:43.888+05:30  INFO 88021 --- [service-registry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-06T21:22:43.914+05:30  INFO 88021 --- [service-registry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T21:22:43.914+05:30  INFO 88021 --- [service-registry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 498 ms
+2025-10-06T21:22:44.241+05:30  INFO 88021 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-10-06T21:22:44.242+05:30  INFO 88021 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-10-06T21:22:44.315+05:30  INFO 88021 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-10-06T21:22:44.316+05:30  INFO 88021 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-10-06T21:22:44.369+05:30  INFO 88021 --- [service-registry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-06T21:22:44.591+05:30  WARN 88021 --- [service-registry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-06T21:22:44.597+05:30  INFO 88021 --- [service-registry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-06T21:22:44.604+05:30  INFO 88021 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-06T21:22:44.604+05:30  INFO 88021 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-10-06T21:22:44.604+05:30  INFO 88021 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759765964604 with initial instances count: 0
+2025-10-06T21:22:44.618+05:30  INFO 88021 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-10-06T21:22:44.619+05:30  WARN 88021 --- [service-registry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T21:22:44.622+05:30  INFO 88021 --- [service-registry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-10-06T21:22:44.622+05:30  INFO 88021 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-10-06T21:22:44.626+05:30  INFO 88021 --- [service-registry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06T21:22:44.651+05:30  INFO 88021 --- [service-registry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-10-06T21:22:44.655+05:30  INFO 88021 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-10-06T21:22:44.655+05:30  INFO 88021 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-10-06T21:22:44.655+05:30  INFO 88021 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-10-06T21:22:44.655+05:30  INFO 88021 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-10-06T21:22:44.655+05:30  INFO 88021 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-10-06T21:22:44.656+05:30  INFO 88021 --- [service-registry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-10-06T21:22:44.659+05:30  INFO 88021 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-06T21:22:44.660+05:30  INFO 88021 --- [service-registry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2025-10-06T21:22:44.683+05:30  INFO 88021 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 1.534 seconds (process running for 1.797)
+2025-10-06T21:22:45.745+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T21:22:45.746+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T21:22:45.746+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-06T21:22:45.779+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T21:22:45.779+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T21:22:45.875+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T21:22:45.913+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: API-GATEWAY - 192.168.0.103:api-gateway:8080
+2025-10-06T21:22:45.914+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): API-GATEWAY - 192.168.0.103:api-gateway:8080
+2025-10-06T21:22:45.940+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:22:45.940+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:22:46.890+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T21:22:46.891+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T21:22:46.905+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T21:22:46.922+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T21:22:46.922+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T21:22:46.937+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status UP (replication=false)
+2025-10-06T21:22:49.336+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T21:22:49.336+05:30  WARN 88021 --- [service-registry] [http-nio-8090-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T21:22:49.352+05:30  INFO 88021 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status UP (replication=false)
+2025-10-06T21:23:26.396+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2025-10-06T21:23:26.398+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T21:23:26.400+05:30  INFO 88021 --- [service-registry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T21:23:26.401+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-10-06T21:23:26.402+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:23:26.402+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:23:26.402+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-10-06T21:23:26.402+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:23:26.402+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:23:26.404+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-06T21:23:26.404+05:30  INFO 88021 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-10-06T21:23:27.602+05:30  INFO 88038 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Starting ServiceRegistryApplication using Java 17.0.12 with PID 88038 (/Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry/target/classes started by gagandeepsingh in /Users/gagandeepsingh/Downloads/NGPOS-Demo-Assignment/Application-Demo/service-registry)
+2025-10-06T21:23:27.603+05:30  INFO 88038 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-10-06T21:23:27.999+05:30  INFO 88038 --- [service-registry] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a80941e2-5337-317c-892d-e14252fc4030
+2025-10-06T21:23:28.105+05:30  INFO 88038 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-06T21:23:28.109+05:30  INFO 88038 --- [service-registry] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-06T21:23:28.110+05:30  INFO 88038 --- [service-registry] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-06T21:23:28.135+05:30  INFO 88038 --- [service-registry] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-06T21:23:28.135+05:30  INFO 88038 --- [service-registry] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 516 ms
+2025-10-06T21:23:28.474+05:30  INFO 88038 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2025-10-06T21:23:28.474+05:30  INFO 88038 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2025-10-06T21:23:28.545+05:30  INFO 88038 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2025-10-06T21:23:28.545+05:30  INFO 88038 --- [service-registry] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2025-10-06T21:23:28.606+05:30  INFO 88038 --- [service-registry] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-10-06T21:23:28.856+05:30  WARN 88038 --- [service-registry] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-10-06T21:23:28.865+05:30  INFO 88038 --- [service-registry] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-10-06T21:23:28.872+05:30  INFO 88038 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-10-06T21:23:28.872+05:30  INFO 88038 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2025-10-06T21:23:28.873+05:30  INFO 88038 --- [service-registry] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1759766008873 with initial instances count: 0
+2025-10-06T21:23:28.887+05:30  INFO 88038 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2025-10-06T21:23:28.888+05:30  WARN 88038 --- [service-registry] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T21:23:28.891+05:30  INFO 88038 --- [service-registry] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2025-10-06T21:23:28.891+05:30  INFO 88038 --- [service-registry] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2025-10-06T21:23:28.895+05:30  INFO 88038 --- [service-registry] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-10-06T21:23:28.913+05:30  INFO 88038 --- [service-registry] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICE-REGISTRY with eureka with status UP
+2025-10-06T21:23:28.918+05:30  INFO 88038 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2025-10-06T21:23:28.918+05:30  INFO 88038 --- [service-registry] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2025-10-06T21:23:28.918+05:30  INFO 88038 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2025-10-06T21:23:28.918+05:30  INFO 88038 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2025-10-06T21:23:28.919+05:30  INFO 88038 --- [service-registry] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2025-10-06T21:23:28.919+05:30  INFO 88038 --- [service-registry] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2025-10-06T21:23:28.923+05:30  INFO 88038 --- [service-registry] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/'
+2025-10-06T21:23:28.923+05:30  INFO 88038 --- [service-registry] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8090
+2025-10-06T21:23:28.940+05:30  INFO 88038 --- [service-registry] [main] c.d.s.ServiceRegistryApplication         : Started ServiceRegistryApplication in 1.578 seconds (process running for 1.865)
+2025-10-06T21:23:29.493+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-06T21:23:29.493+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-06T21:23:29.494+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-06T21:23:29.520+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T21:23:29.520+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-2] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8081
+2025-10-06T21:23:29.574+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8081 with status UP (replication=false)
+2025-10-06T21:23:30.990+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T21:23:30.991+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-3] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8084
+2025-10-06T21:23:30.998+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status UP (replication=false)
+2025-10-06T21:23:32.007+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T21:23:32.007+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Renew): INVENTORY-SERVICE - 192.168.0.103:inventory-service:8082
+2025-10-06T21:23:32.019+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance INVENTORY-SERVICE/192.168.0.103:inventory-service:8082 with status UP (replication=false)
+2025-10-06T21:23:32.027+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-9] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T21:23:32.028+05:30  WARN 88038 --- [service-registry] [http-nio-8090-exec-9] c.n.eureka.resources.InstanceResource    : Not Found (Renew): PAYMENT-SERVICE - 192.168.0.103:payment-service:8083
+2025-10-06T21:23:32.034+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8083 with status UP (replication=false)
+2025-10-06T21:23:32.052+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:23:35.071+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T21:23:37.226+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:24:28.924+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T21:25:28.925+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2025-10-06T21:25:35.907+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:25:38.916+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T21:25:41.152+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:26:10.207+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:26:13.238+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T21:26:15.260+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:26:28.927+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T21:27:28.929+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2025-10-06T21:28:28.934+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T21:28:29.646+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:28:32.662+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T21:28:35.603+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:29:28.939+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:30:28.942+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 30ms
+2025-10-06T21:31:28.943+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:32:28.945+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T21:33:28.863+05:30  WARN 88038 --- [service-registry] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2025-10-06T21:33:28.950+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T21:34:28.955+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T21:35:28.959+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:36:28.964+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:37:28.968+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:38:28.894+05:30  INFO 88038 --- [service-registry] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 10
+2025-10-06T21:38:28.969+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2025-10-06T21:39:28.973+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 4ms
+2025-10-06T21:39:42.219+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status DOWN (replication=false)
+2025-10-06T21:39:47.314+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance API-GATEWAY/192.168.0.103:api-gateway:8080 (replication=false)
+2025-10-06T21:39:49.582+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance API-GATEWAY/192.168.0.103:api-gateway:8080 with status UP (replication=false)
+2025-10-06T21:40:28.978+05:30  INFO 88038 --- [service-registry] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 5ms
+2025-10-06T21:40:48.598+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICE-REGISTRY with eureka with status DOWN
+2025-10-06T21:40:48.599+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-06T21:40:48.604+05:30  INFO 88038 --- [service-registry] [http-nio-8090-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance PAYMENT-SERVICE/192.168.0.103:payment-service:8084 with status DOWN (replication=false)
+2025-10-06T21:40:48.612+05:30  INFO 88038 --- [service-registry] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-06T21:40:48.624+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2025-10-06T21:40:48.624+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:40:48.624+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:40:48.624+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2025-10-06T21:40:48.628+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2025-10-06T21:40:48.628+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2025-10-06T21:40:48.632+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-10-06T21:40:48.632+05:30  INFO 88038 --- [service-registry] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
